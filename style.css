@@ -1,0 +1,73 @@
+input {
+    width: 500px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
+label{
+    color: #05f832;
+}
+select{
+    width: 500px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #05f832;
+    color: white;
+    
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the container for inputs */
+  .container {
+    background-color: #f1f1f1;
+    width: 550px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-image: 
+    linear-gradient(to right bottom,
+    rgba(51, 80, 166, 0.748),
+    rgba(46, 41, 102, 0.8)),
+    url('https://wallpaperaccess.com/full/946111.jpg'); 
+    background-size: cover;
+    
+  }
+  .container h1{
+    text-align: center;
+    margin-left: -50px;
+    color:#05f832;
+   
+
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
+  .container h1:hover{
+    -webkit-transform: rotate(360deg) scale(2);
+    -moz-transform: rotate(360deg) scale(2);
+    -o-transform: rotate(360deg) scale(2);
+    -ms-transform: rotate(360deg) scale(2);
+    transform: rotate(360deg) scale(2);
+}
+
+  
+
+  
+  
